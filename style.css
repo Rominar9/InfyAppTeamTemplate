@@ -1,0 +1,62 @@
+/* style.css */
+
+/* Typography and base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h3 {
+  color: #2c3e50;
+}
+
+em {
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212529 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Container Styling */
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Iframe styling */
+iframe {
+  width: 100%;
+  min-height: 400px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* Video styling */
+video {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+/* Headings */
+h3 {
+  margin-top: 2rem;
+}
+
+/* Horizontal Rule */
+hr {
+  margin: 2rem 0;
+  border-top: 2px solid #dee2e6;
+}
