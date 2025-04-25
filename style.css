@@ -29,12 +29,12 @@ body {
 
 /* Headings */
 h1 {
-  color: #0d6efd;
+  color: #935116;
   font-weight: 700;
 }
 
 h3 {
-  color: #198754; /* Bootstrap success green */
+  color: #935116; /* Bootstrap success green */
   margin-top: 2rem;
   font-weight: 600;
 }
