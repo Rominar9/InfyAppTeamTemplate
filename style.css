@@ -1,22 +1,33 @@
-/* style.css */
 
+/* style.css */
+// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* Base styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333333; /* Dark grey */
+  color: #955306; /* Dark grey */
   line-height: 1.6;
-  background-color: #f8f9fa; /* Light grey background */
+  background-image: url('background.png'); /* Background image */
+  background-size: cover;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #343a40 !important; /* Dark grey for navbar */
+  background-color: #955306!important; /* Dark grey for navbar */
+  color: black;
 }
 
 .navbar-brand {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #ffffff; /* White text for navbar brand */
+  color: antiquewhite; /* White text for navbar brand */
 }
 
 /* Container */
@@ -24,25 +35,27 @@ body {
   background-color: #ffffff; /* White background for container */
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px #f2cb83;
 }
 
 /* Headings */
 h1 {
-  color: #343a40; /* Dark grey */
+  color: #9b3234; /* Dark grey */
   font-weight: 700;
+  font-family: "Oswald", sans-serif;
 }
 
 h3 {
-  color: #6c757d; /* Grey */
+  color: #9b3234; /* Grey */
   margin-top: 2rem;
   font-weight: 600;
+  font-family: "Oswald", sans-serif;
 }
 
 /* Emphasized Text */
 em {
   font-style: italic;
-  color: #6c757d; /* Grey for emphasized text */
+  color: #9b3234; /* Grey for emphasized text */
   font-size: 1.1rem;
 }
 
