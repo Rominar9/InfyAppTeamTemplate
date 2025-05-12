@@ -9,6 +9,12 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* Base styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,7 +68,8 @@ em {
 /* Paragraphs */
 p {
   font-size: 1.05rem;
-  color: #495057; /* Slightly lighter dark grey */
+  color: #d29e58; /* Slightly lighter dark grey */
+  font-family: "Playfair Display", serif;
 }
 
 /* Horizontal Rule */
