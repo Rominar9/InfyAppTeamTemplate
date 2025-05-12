@@ -98,3 +98,16 @@ video {
     font-size: 1.3rem;
   }
 }
+
+/* Navbar link hover effect */
+.navbar-dark .navbar-nav .nav-link {
+  color: antiquewhite;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #f2cb83; /* Light gold hover */
+  color: #955306; /* Dark text on hover */
+}
