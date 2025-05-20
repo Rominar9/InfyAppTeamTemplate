@@ -22,6 +22,10 @@ body {
 .navbar {
   background-color: #955306!important; /* Dark grey for navbar */
   color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  width: 100%;
 }
 
 .navbar-brand {
