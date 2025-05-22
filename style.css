@@ -40,6 +40,7 @@ body {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 6px 20px #f2cb83;
+  max-width: 95%;
 }
 
 /* Headings */
