@@ -139,3 +139,8 @@ video {
   background-color: #f2cb83;
   color: #955306;
 }
+
+a {
+    color: #f9b775;
+    text-decoration: inherit;
+}
