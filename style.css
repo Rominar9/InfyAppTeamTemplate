@@ -144,6 +144,12 @@ a {
     color: #955306;
     text-decoration: inherit;
 }
+
+a:hover {
+    color: #522C00;
+    text-decoration: inherit;
+}
+
 .btn btn-link mx-2 my-1 {
   color: #955306;
   text-decoration: inherit;
